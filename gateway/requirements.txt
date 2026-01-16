@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+httpx
+sqlmodel
+psycopg2-binary

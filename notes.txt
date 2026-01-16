@@ -1,0 +1,11 @@
+cd services/user_service/app
+uvicorn main:app --reload --port 8001
+http://127.0.0.1:8001/docs
+http://localhost:8001/health
+
+CTRL + C
+
+
+cd infrastructure/docker
+docker compose down -v
+docker compose up --build
